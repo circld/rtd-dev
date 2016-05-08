@@ -1,0 +1,60 @@
+TripUpdate.pb
+
+print feed.entity[0].trip_update
+
+trip {
+  trip_id: "109873464"
+  schedule_relationship: SCHEDULED
+  route_id: "0"
+  direction_id: 0
+}
+stop_time_update {
+  stop_sequence: 47
+  arrival {
+    time: 1462662537
+  }
+  departure {
+    time: 1462662537
+  }
+  stop_id: "12616"
+  schedule_relationship: SCHEDULED
+}
+stop_time_update {
+  stop_sequence: 83
+  arrival {
+    time: 1462664150
+  }
+  departure {
+    time: 1462664150
+  }
+  stop_id: "17754"
+  schedule_relationship: SCHEDULED
+}
+vehicle {
+  id: "6028"
+  label: "6028"
+}
+
+
+VehiclePosition.pb
+
+print feed.entity[0].vehicle
+
+trip {
+  trip_id: "109926364"
+  schedule_relationship: SCHEDULED
+  route_id: "42"
+  direction_id: 1
+}
+position {
+  latitude: 39.782081604
+  longitude: -104.845283508
+  bearing: 294.0
+}
+current_status: IN_TRANSIT_TO
+timestamp: 1462663005
+stop_id: "11253"
+vehicle {
+  id: "1403"
+  label: "1403"
+}
